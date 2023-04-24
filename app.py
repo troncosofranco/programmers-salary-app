@@ -145,5 +145,4 @@ st.write("---")
 st.markdown("""
 Credits:
 * **Data Provided by:** [Stack overflow Survey 2021](https://insights.stackoverflow.com/survey/2021)
-* **Code contribution:** [Python Engineer] (https://github.com/python-engineer/python-fun)
 """)
