@@ -6,5 +6,5 @@ The data was collected from StackOverflow Survey of 2021.
 The app is deployed on streamlit server.
 
 Access to the web application:
-https://troncosofranco-programmers-salary-app-app-8huiti.streamlitapp.com/
+https://salary-dev.streamlit.app/
 
