@@ -96,14 +96,14 @@ def show_explore_page():
     st.pyplot(fig1)
     st.write(
         """
-    #### Mean Salary Based On Country (U$D)
+    #### Mean Salary Based On Country ($)
     """
     )
     
     data = df.groupby(["Country"])["Salary"].mean().sort_values(ascending=True)
     st.bar_chart(data)
 
-    st.subheader("Mean Salary (U$D) Vs Experience Years (All countries)")
+    st.subheader("Mean Salary ($) Vs Experience Years (All countries)")
 
     data = df.groupby(["YearsCodePro"])["Salary"].mean().sort_values(ascending=True)
     st.line_chart(data)
